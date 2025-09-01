@@ -1,0 +1,45 @@
+# --- Python cache & compiled files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual environments & site-packages ---
+env/
+.venv/
+venv/
+deeplearning/Lib/
+Lib/
+bin/
+Include/
+Scripts/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE settings ---
+.vscode/
+.pycharm/
+.idea/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Models & large files ---
+*.dll
+*.so
+*.dylib
+*.h5
+*.pt
+*.pth
+*.onnx
+*.pb
+*.ckpt
+*.zip
+*.tar
+*.gz
+
+# --- Custom project ---
+models.config
+PlantVillage/
