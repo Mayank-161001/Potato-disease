@@ -29,12 +29,14 @@ deeplearning/<br>
 ├── requirements.txt # Root-level dependencies<br>
 └── .gitignore<br>
 
-
+-------------FastApi------
+cd fastapi <br>
+python api.py <br>
 
 ---------------Frontend (React)-------
 
 cd frontend  <br>
 npm install  <br>
-npm start  <br>
+npm run start  <br>
 
 
