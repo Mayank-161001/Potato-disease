@@ -33,8 +33,8 @@ deeplearning/<br>
 
 ---------------Frontend (React)-------
 
-cd frontend
-npm install
-npm start
+cd frontend  <br>
+npm install  <br>
+npm start  <br>
 
 
