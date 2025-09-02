@@ -6,28 +6,28 @@ It includes a **FastAPI backend**, a **React frontend**, and a **trained YOLOv11
 ---
 
 ## 📂 Project Structure
-
-deeplearning/
-├── fastapi/ # Backend API (FastAPI)
-│ ├── api.py # Main API script
-│ ├── requirements.txt # Backend dependencies
-│ └── pycache/
-│
-├── frontend/ # Frontend (React)
-│ ├── node_modules/
-│ ├── public/ # Static files
-│ ├── src/ # React source code
-│ ├── .env # Environment variables
-│ ├── .env.example
-│ ├── package.json
-│ ├── package-lock.json
-│ └── README.md
-│
-├── save_modal/ # Saved deep learning model
-│ └── my_model.h5
-│
-├── requirements.txt # Root-level dependencies
-└── .gitignore
+,
+deeplearning/<br>
+├── fastapi/ # Backend API (FastAPI)<br>
+│ ├── api.py # Main API script<br>
+│ ├── requirements.txt # Backend dependencies<br>
+│ └── pycache/<br>
+│<br>
+├── frontend/ # Frontend (React)<br>
+│ ├── node_modules/<br>
+│ ├── public/ # Static files<br>
+│ ├── src/ # React source code<br>
+│ ├── .env # Environment variables<br>
+│ ├── .env.example<br>
+│ ├── package.json<br>
+│ ├── package-lock.json<br>
+│ └── README.md<br>
+│<br>
+├── save_modal/ # Saved deep learning model<br>
+│ └── my_model.h5<br>
+│<br>
+├── requirements.txt # Root-level dependencies<br>
+└── .gitignore<br>
 
 
 
