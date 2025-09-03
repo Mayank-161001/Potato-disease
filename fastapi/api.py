@@ -7,6 +7,12 @@ import numpy as np
 from io import BytesIO
 from PIL import Image
 import tensorflow as tf
+import os
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MODEL_PATH = os.path.join(BASE_DIR, "save_modal", "my_model.h5")
+
+MODEL = tf.keras.models.load_model(MODEL_PATH)
 
 app = FastAPI()
 
@@ -22,7 +28,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-MODEL = tf.keras.models.load_model(r"C:\Users\mayan\OneDrive\Desktop\deeplearning\save_modal\my_model.h5")
+# MODEL = tf.keras.models.load_model(r"C:\Users\mayan\OneDrive\Desktop\deeplearning\save_modal\my_model.h5")
 
 CLASS_NAMES = ["Early Blight", "Late Blight", "Healthy"]
 
